@@ -3,9 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Screenlight</title>
   </head>
   <body>
-    <h1>Screenlight Test</h1>
+    <div class="option">
+      <h1 class="title">Screenlight</h1>
+
+      <div>
+        <div class="preset-box">
+          <div
+            onclick="selectColor(this)"
+            data-color="yellow"
+            class="preset preset1"
+          ></div>
+          <div
+            onclick="selectColor(this)"
+            data-color="#fff"
+            class="preset preset2"
+          ></div>
+          <div
+            onclick="selectColor(this)"
+            data-color="purple"
+            class="preset preset3"
+          ></div>
+          <input onchange="selectColor(this)" type="color" class="preset" />
+        </div>
+
+        <p>Press space key to toggle activation.</p>
+      </div>
+
+      <div class="about">
+        <p>Why I built it:</p>
+        <hr />
+        <p>
+          One day I was having lighting issues during my zoom meeting with my
+          team. I was traying to find an easy to use tool that can be used on my
+          2nd monitor to make me brigher on such dark environment.
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
