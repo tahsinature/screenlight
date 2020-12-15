@@ -11,7 +11,7 @@ const optionContents = document.querySelector(".option");
 const presetItems = document.querySelectorAll(".preset");
 
 const bgColorStandBy = "#fff";
-const defaultColor = "red";
+const defaultColor = "#fff";
 let selectedColor = defaultColor;
 
 document.addEventListener("keyup", (key) => {
