@@ -59,6 +59,10 @@ body {
   background-color: purple;
 }
 
+.settings {
+  margin-top: 0.5rem;
+}
+
 .about {
   margin: 2rem;
 }
